@@ -60,7 +60,7 @@ RUN chmod +x /upx
 
 But if you start from scratch there is no `chmod` ?! 
 
-### lalyos/chmx
+### lalyos/scratch-chmx
 
 This can be solved by adding a small tool which is
 written in C and can perform a `chmod +x`. Static compiled `chmx`
