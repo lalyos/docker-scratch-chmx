@@ -1,4 +1,11 @@
-Once you have static binaries
+Once you have static binaries you want to create the smallest possible docker container.
+
+Requirements:
+- automated/trusted build: so you have to put your Dockerfile into github
+- a minimal docker image, so even alpine or busybox is big (compared to your binry which is probably under 1MB)
+- don’t store the binary redundantly in github near to the Dockerfile
+
+This Docker image is my proposed solution.
 
 ## Usage
 
