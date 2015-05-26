@@ -12,9 +12,9 @@ This Docker image is my proposed solution.
 ```
 FROM lalyos/scratch-chmx
 ADD https://bintray.com/yourpackage/v1.2.3/mycli /bin/mycli
-RUN [“/bin/chmx”, “/bin/mycli”]
+RUN ["/bin/chmx", "/bin/mycli"]
 
-ENTRYPOINT [“/bin/mycli”]
+ENTRYPOINT ["/bin/mycli"]
 ```
 
 ## tl;dr
